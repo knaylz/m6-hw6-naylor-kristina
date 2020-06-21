@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba(135, 206, 235, .075);
+    text-align: center;
+    font-family: font-family: 'Balsamiq Sans', cursive;;
+}
+
+header {
+    margin-top: 8%;
+    font-size: 3rem;
+}
+
+main {
+    flex: 1;
+}
+
+main p {
+    font-size: 2rem;
+}
+
+footer {
+    background-image: url("images/skyline.png");
+    background-repeat: norepeat;
+    background-position: cover;
+    /*width: 100%;*/
+    /*min-height: 350px;*/
+    position: relative;
+    background-size: cover;
+    min-height: 300px;
+    background-position: center;
+}
+
+footer p {
+    padding-top: 20%;
+    color: #f8f8f8;
+    font-weight: bold;
+}
