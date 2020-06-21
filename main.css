@@ -9,7 +9,7 @@ body {
 
 header {
     margin-top: 8%;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 main {
@@ -18,6 +18,10 @@ main {
 
 main p {
     font-size: 2rem;
+}
+
+#weather-today {
+    font-weight: bold;
 }
 
 footer {
