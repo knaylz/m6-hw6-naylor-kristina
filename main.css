@@ -9,15 +9,10 @@ body {
 
 header {
     margin-top: 8%;
-    font-size: 2.5rem;
 }
 
 main {
     flex: 1;
-}
-
-main p {
-    font-size: 2rem;
 }
 
 #weather-today {
@@ -37,7 +32,50 @@ footer {
 }
 
 footer p {
-    padding-top: 20%;
     color: #f8f8f8;
     font-weight: bold;
+}
+
+/****** MEDIA QUERIES ******/
+
+@media (min-width: 320px) {
+    header {
+        font-size: 1rem;
+    }
+
+    main p {
+        font-size: .75rem;
+    }
+
+    footer p {
+        padding-top: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        font-size: 2rem;
+    }
+    
+    main p {
+        font-size: 1rem;
+    }
+
+    footer p {
+        padding-top: 30%;
+    }
+}
+
+@media (min-width: 769px) {
+    header {
+        font-size: 2.5rem;
+    }
+    
+    main p {
+        font-size: 2rem;
+    }
+
+    footer p {
+        padding-top: 25%;
+    }
 }
